@@ -1,0 +1,24 @@
+{
+  "originHash" : "62799b3083e5936b76dc16948d7af46cfc9f9f19d441c2988b62c0ff5b231773",
+  "pins" : [
+    {
+      "identity" : "sifliocore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenSiFli/SifliOCore.git",
+      "state" : {
+        "revision" : "20ed4c96665af17de2227eac0f811da93068a15b",
+        "version" : "2.2.3"
+      }
+    },
+    {
+      "identity" : "siflireadersdk_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenSiFli/siflireadersdk_ios.git",
+      "state" : {
+        "revision" : "a7eb8d195a1237586baa9b632b10d5d1f3340fdc",
+        "version" : "2.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

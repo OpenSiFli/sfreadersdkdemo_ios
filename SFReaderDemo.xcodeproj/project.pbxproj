@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18DCCB152AB5A3FC0021F7F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCCB142AB5A3FC0021F7F0 /* AppDelegate.swift */; };
+		18DCCB172AB5A3FC0021F7F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCCB162AB5A3FC0021F7F0 /* SceneDelegate.swift */; };
+		18DCCB192AB5A3FC0021F7F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCCB182AB5A3FC0021F7F0 /* ViewController.swift */; };
+		18DCCB1C2AB5A3FC0021F7F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DCCB1A2AB5A3FC0021F7F0 /* Main.storyboard */; };
+		18DCCB1E2AB5A3FD0021F7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DCCB1D2AB5A3FD0021F7F0 /* Assets.xcassets */; };
+		18DCCB212AB5A3FD0021F7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DCCB1F2AB5A3FD0021F7F0 /* LaunchScreen.storyboard */; };
+		18DCCB2C2AB5A3FD0021F7F0 /* SFReaderDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCCB2B2AB5A3FD0021F7F0 /* SFReaderDemoTests.swift */; };
+		18DCCB362AB5A3FD0021F7F0 /* SFReaderDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCCB352AB5A3FD0021F7F0 /* SFReaderDemoUITests.swift */; };
+		18DCCB382AB5A3FD0021F7F0 /* SFReaderDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DCCB372AB5A3FD0021F7F0 /* SFReaderDemoUITestsLaunchTests.swift */; };
+		4BD78C8B30A40A1C007EAD52 /* SifliOCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4BD78C8A30A40A1C007EAD52 /* SifliOCore */; };
+		4BD78C8D30A40A1F007EAD52 /* SifliReaderOCSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 4BD78C8C30A40A1F007EAD52 /* SifliReaderOCSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DCCB282AB5A3FD0021F7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DCCB092AB5A3FC0021F7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DCCB102AB5A3FC0021F7F0;
+			remoteInfo = SFReaderDemo;
+		};
+		18DCCB322AB5A3FD0021F7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DCCB092AB5A3FC0021F7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DCCB102AB5A3FC0021F7F0;
+			remoteInfo = SFReaderDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18DCCB112AB5A3FC0021F7F0 /* SFReaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFReaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DCCB142AB5A3FC0021F7F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18DCCB162AB5A3FC0021F7F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18DCCB182AB5A3FC0021F7F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18DCCB1B2AB5A3FC0021F7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DCCB1D2AB5A3FD0021F7F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DCCB202AB5A3FD0021F7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DCCB222AB5A3FD0021F7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DCCB272AB5A3FD0021F7F0 /* SFReaderDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFReaderDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DCCB2B2AB5A3FD0021F7F0 /* SFReaderDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFReaderDemoTests.swift; sourceTree = "<group>"; };
+		18DCCB312AB5A3FD0021F7F0 /* SFReaderDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFReaderDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DCCB352AB5A3FD0021F7F0 /* SFReaderDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFReaderDemoUITests.swift; sourceTree = "<group>"; };
+		18DCCB372AB5A3FD0021F7F0 /* SFReaderDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFReaderDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DCCB0E2AB5A3FC0021F7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD78C8D30A40A1F007EAD52 /* SifliReaderOCSDK in Frameworks */,
+				4BD78C8B30A40A1C007EAD52 /* SifliOCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCCB242AB5A3FD0021F7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCCB2E2AB5A3FD0021F7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18DCCB082AB5A3FC0021F7F0 = {
+			isa = PBXGroup;
+			children = (
+				18DCCB442AB5A41D0021F7F0 /* SDK */,
+				18DCCB132AB5A3FC0021F7F0 /* SFReaderDemo */,
+				18DCCB2A2AB5A3FD0021F7F0 /* SFReaderDemoTests */,
+				18DCCB342AB5A3FD0021F7F0 /* SFReaderDemoUITests */,
+				4BD78C8930A40A1C007EAD52 /* Frameworks */,
+				18DCCB122AB5A3FC0021F7F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18DCCB122AB5A3FC0021F7F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18DCCB112AB5A3FC0021F7F0 /* SFReaderDemo.app */,
+				18DCCB272AB5A3FD0021F7F0 /* SFReaderDemoTests.xctest */,
+				18DCCB312AB5A3FD0021F7F0 /* SFReaderDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18DCCB132AB5A3FC0021F7F0 /* SFReaderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18DCCB142AB5A3FC0021F7F0 /* AppDelegate.swift */,
+				18DCCB162AB5A3FC0021F7F0 /* SceneDelegate.swift */,
+				18DCCB182AB5A3FC0021F7F0 /* ViewController.swift */,
+				18DCCB1A2AB5A3FC0021F7F0 /* Main.storyboard */,
+				18DCCB1D2AB5A3FD0021F7F0 /* Assets.xcassets */,
+				18DCCB1F2AB5A3FD0021F7F0 /* LaunchScreen.storyboard */,
+				18DCCB222AB5A3FD0021F7F0 /* Info.plist */,
+			);
+			path = SFReaderDemo;
+			sourceTree = "<group>";
+		};
+		18DCCB2A2AB5A3FD0021F7F0 /* SFReaderDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18DCCB2B2AB5A3FD0021F7F0 /* SFReaderDemoTests.swift */,
+			);
+			path = SFReaderDemoTests;
+			sourceTree = "<group>";
+		};
+		18DCCB342AB5A3FD0021F7F0 /* SFReaderDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18DCCB352AB5A3FD0021F7F0 /* SFReaderDemoUITests.swift */,
+				18DCCB372AB5A3FD0021F7F0 /* SFReaderDemoUITestsLaunchTests.swift */,
+			);
+			path = SFReaderDemoUITests;
+			sourceTree = "<group>";
+		};
+		18DCCB442AB5A41D0021F7F0 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		4BD78C8930A40A1C007EAD52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18DCCB102AB5A3FC0021F7F0 /* SFReaderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DCCB3B2AB5A3FD0021F7F0 /* Build configuration list for PBXNativeTarget "SFReaderDemo" */;
+			buildPhases = (
+				18DCCB0D2AB5A3FC0021F7F0 /* Sources */,
+				18DCCB0E2AB5A3FC0021F7F0 /* Frameworks */,
+				18DCCB0F2AB5A3FC0021F7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFReaderDemo;
+			productName = SFReaderDemo;
+			productReference = 18DCCB112AB5A3FC0021F7F0 /* SFReaderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18DCCB262AB5A3FD0021F7F0 /* SFReaderDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DCCB3E2AB5A3FD0021F7F0 /* Build configuration list for PBXNativeTarget "SFReaderDemoTests" */;
+			buildPhases = (
+				18DCCB232AB5A3FD0021F7F0 /* Sources */,
+				18DCCB242AB5A3FD0021F7F0 /* Frameworks */,
+				18DCCB252AB5A3FD0021F7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DCCB292AB5A3FD0021F7F0 /* PBXTargetDependency */,
+			);
+			name = SFReaderDemoTests;
+			productName = SFReaderDemoTests;
+			productReference = 18DCCB272AB5A3FD0021F7F0 /* SFReaderDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18DCCB302AB5A3FD0021F7F0 /* SFReaderDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18DCCB412AB5A3FD0021F7F0 /* Build configuration list for PBXNativeTarget "SFReaderDemoUITests" */;
+			buildPhases = (
+				18DCCB2D2AB5A3FD0021F7F0 /* Sources */,
+				18DCCB2E2AB5A3FD0021F7F0 /* Frameworks */,
+				18DCCB2F2AB5A3FD0021F7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18DCCB332AB5A3FD0021F7F0 /* PBXTargetDependency */,
+			);
+			name = SFReaderDemoUITests;
+			productName = SFReaderDemoUITests;
+			productReference = 18DCCB312AB5A3FD0021F7F0 /* SFReaderDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18DCCB092AB5A3FC0021F7F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					18DCCB102AB5A3FC0021F7F0 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					18DCCB262AB5A3FD0021F7F0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 18DCCB102AB5A3FC0021F7F0;
+					};
+					18DCCB302AB5A3FD0021F7F0 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 18DCCB102AB5A3FC0021F7F0;
+					};
+				};
+			};
+			buildConfigurationList = 18DCCB0C2AB5A3FC0021F7F0 /* Build configuration list for PBXProject "SFReaderDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18DCCB082AB5A3FC0021F7F0;
+			packageReferences = (
+				4BD78C8730A40442007EAD52 /* XCRemoteSwiftPackageReference "SifliOCore" */,
+				4BD78C8830A407CF007EAD52 /* XCRemoteSwiftPackageReference "siflireadersdk_ios" */,
+			);
+			productRefGroup = 18DCCB122AB5A3FC0021F7F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18DCCB102AB5A3FC0021F7F0 /* SFReaderDemo */,
+				18DCCB262AB5A3FD0021F7F0 /* SFReaderDemoTests */,
+				18DCCB302AB5A3FD0021F7F0 /* SFReaderDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18DCCB0F2AB5A3FC0021F7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DCCB212AB5A3FD0021F7F0 /* LaunchScreen.storyboard in Resources */,
+				18DCCB1E2AB5A3FD0021F7F0 /* Assets.xcassets in Resources */,
+				18DCCB1C2AB5A3FC0021F7F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCCB252AB5A3FD0021F7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCCB2F2AB5A3FD0021F7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18DCCB0D2AB5A3FC0021F7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DCCB192AB5A3FC0021F7F0 /* ViewController.swift in Sources */,
+				18DCCB152AB5A3FC0021F7F0 /* AppDelegate.swift in Sources */,
+				18DCCB172AB5A3FC0021F7F0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCCB232AB5A3FD0021F7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DCCB2C2AB5A3FD0021F7F0 /* SFReaderDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18DCCB2D2AB5A3FD0021F7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18DCCB362AB5A3FD0021F7F0 /* SFReaderDemoUITests.swift in Sources */,
+				18DCCB382AB5A3FD0021F7F0 /* SFReaderDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18DCCB292AB5A3FD0021F7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DCCB102AB5A3FC0021F7F0 /* SFReaderDemo */;
+			targetProxy = 18DCCB282AB5A3FD0021F7F0 /* PBXContainerItemProxy */;
+		};
+		18DCCB332AB5A3FD0021F7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DCCB102AB5A3FC0021F7F0 /* SFReaderDemo */;
+			targetProxy = 18DCCB322AB5A3FD0021F7F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18DCCB1A2AB5A3FC0021F7F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DCCB1B2AB5A3FC0021F7F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18DCCB1F2AB5A3FD0021F7F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18DCCB202AB5A3FD0021F7F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18DCCB392AB5A3FD0021F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18DCCB3A2AB5A3FD0021F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18DCCB3C2AB5A3FD0021F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L492HNFK4H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SFReaderDemo/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "使用蓝牙";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifli.SFReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18DCCB3D2AB5A3FD0021F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L492HNFK4H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SFReaderDemo/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "使用蓝牙";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifli.SFReaderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18DCCB3F2AB5A3FD0021F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L492HNFK4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifli.SFReaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFReaderDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SFReaderDemo";
+			};
+			name = Debug;
+		};
+		18DCCB402AB5A3FD0021F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L492HNFK4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifli.SFReaderDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFReaderDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SFReaderDemo";
+			};
+			name = Release;
+		};
+		18DCCB422AB5A3FD0021F7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L492HNFK4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifli.SFReaderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SFReaderDemo;
+			};
+			name = Debug;
+		};
+		18DCCB432AB5A3FD0021F7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L492HNFK4H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sifli.SFReaderDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SFReaderDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18DCCB0C2AB5A3FC0021F7F0 /* Build configuration list for PBXProject "SFReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DCCB392AB5A3FD0021F7F0 /* Debug */,
+				18DCCB3A2AB5A3FD0021F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DCCB3B2AB5A3FD0021F7F0 /* Build configuration list for PBXNativeTarget "SFReaderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DCCB3C2AB5A3FD0021F7F0 /* Debug */,
+				18DCCB3D2AB5A3FD0021F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DCCB3E2AB5A3FD0021F7F0 /* Build configuration list for PBXNativeTarget "SFReaderDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DCCB3F2AB5A3FD0021F7F0 /* Debug */,
+				18DCCB402AB5A3FD0021F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18DCCB412AB5A3FD0021F7F0 /* Build configuration list for PBXNativeTarget "SFReaderDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DCCB422AB5A3FD0021F7F0 /* Debug */,
+				18DCCB432AB5A3FD0021F7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4BD78C8730A40442007EAD52 /* XCRemoteSwiftPackageReference "SifliOCore" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OpenSiFli/SifliOCore.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.3;
+			};
+		};
+		4BD78C8830A407CF007EAD52 /* XCRemoteSwiftPackageReference "siflireadersdk_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OpenSiFli/siflireadersdk_ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4BD78C8A30A40A1C007EAD52 /* SifliOCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BD78C8730A40442007EAD52 /* XCRemoteSwiftPackageReference "SifliOCore" */;
+			productName = SifliOCore;
+		};
+		4BD78C8C30A40A1F007EAD52 /* SifliReaderOCSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4BD78C8830A407CF007EAD52 /* XCRemoteSwiftPackageReference "siflireadersdk_ios" */;
+			productName = SifliReaderOCSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 18DCCB092AB5A3FC0021F7F0 /* Project object */;
+}
