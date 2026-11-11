@@ -30,7 +30,7 @@ let readerManager = SFReaderManager.share;
 readerManager.delegate = self
 ```
 
-### 1. 实现回调
+### 3.1. 实现回调
 
 ```objective-c
 @protocol SFReaderManagerDelegate <NSObject>
@@ -80,7 +80,7 @@ SFReaderSDK通过回调通知sdk的状态，读取进度，任务执行结果。
 
 reqeustCommand为请求命令,文件读取成功后将会放置在rcvFiles中
 
-### 2. Asset
+### 3.2. Asset
 
 **设置asset 开关**
 
@@ -105,6 +105,39 @@ func readerManager(manager: SFReaderSDK.SFReaderManager, complete result: SFRead
 ```
 
 文件地址在result.rcvFiles 列表之中。
+
+### 3.3 AudioDump
+### 读取AudioDump
+```java
+public void readAudioDumpRequest(String dir, String mac);
+```
+其中 dir 为读取文件存放目录，mac 为目标设备地址。
+
+### 选择AudioDump类型
+```objective-c
+- (void)openAudioDumpRequestWithType:(SFReaderAudioDumpType)type
+                    targetIdentifier:(NSString *)targetIdentifier;
+```
+```objective-c
+typedef NS_ENUM(NSInteger, SFReaderAudioDumpType) {
+    SFReaderAudioDumpTypeDOWLINK       = 1,
+    SFReaderAudioDumpTypeDOWLINK_AGC   = 2,
+    SFReaderAudioDumpTypeAUDPRC        = 3,
+    SFReaderAudioDumpTypeDC_OUTPUT     = 4,
+    SFReaderAudioDumpTypeRAMP_IN_OUTPUT= 5,
+    SFReaderAudioDumpTypeAECM_INPUT1   = 6,
+    SFReaderAudioDumpTypeAECM_INPUT2   = 7,
+    SFReaderAudioDumpTypeAECM_OUTPUT   = 8,
+    SFReaderAudioDumpTypeANC_OUTPUT    = 9,
+    SFReaderAudioDumpTypeAGC_OUTPUT    = 10,
+    SFReaderAudioDumpTypeRAMP_OUT_OUTPUT = 11
+};
+```
+### 清理 Dump
+
+```objective-c
+- (void)clearAudioDumpRequestWithTargetIdentifier:(NSString *)targetIdentifier;
+```
 
 ## 4. 异常代码
 
